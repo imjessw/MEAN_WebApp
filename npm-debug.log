@@ -1,0 +1,346 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt-cli' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose cache add [ 'grunt-cli', null ]
+5 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'grunt-cli',
+6 verbose parsed url   path: 'grunt-cli',
+6 verbose parsed url   href: 'grunt-cli' }
+7 silly lockFile 671ef8ac-grunt-cli grunt-cli
+8 verbose lock grunt-cli /Users/waitej/.npm/671ef8ac-grunt-cli.lock
+9 silly lockFile 671ef8ac-grunt-cli grunt-cli
+10 silly lockFile 671ef8ac-grunt-cli grunt-cli
+11 verbose addNamed [ 'grunt-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+14 verbose lock grunt-cli@ /Users/waitej/.npm/d63f3d0b-grunt-cli.lock
+15 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+16 verbose url raw grunt-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+18 verbose url resolved https://registry.npmjs.org/grunt-cli
+19 info trying registry request attempt 1 at 20:31:11
+20 verbose etag "DYIQLZDUC8HE08Q18TAH9PMFC"
+21 http GET https://registry.npmjs.org/grunt-cli
+22 http 304 https://registry.npmjs.org/grunt-cli
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Wed, 29 Jul 2015 00:31:11 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=60',
+23 silly registry.get     etag: '"DYIQLZDUC8HE08Q18TAH9PMFC"',
+23 silly registry.get     age: '14',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-iad2127-IAD',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1438129871.895286,VS0,VE0',
+23 silly registry.get     vary: 'Accept' } ]
+24 verbose etag grunt-cli from cache
+25 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+26 silly addNameRange versions [ 'grunt-cli',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.1.5',
+26 silly addNameRange     '0.1.6',
+26 silly addNameRange     '0.1.7',
+26 silly addNameRange     '0.1.8',
+26 silly addNameRange     '0.1.9',
+26 silly addNameRange     '0.1.10',
+26 silly addNameRange     '0.1.11',
+26 silly addNameRange     '0.1.12',
+26 silly addNameRange     '0.1.13' ] ]
+27 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+28 verbose addNamed [ '0.1.13', '0.1.13' ]
+29 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+30 verbose lock grunt-cli@0.1.13 /Users/waitej/.npm/28997503-grunt-cli-0-1-13.lock
+31 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+32 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+33 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+34 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+35 silly resolved [ { name: 'grunt-cli',
+35 silly resolved     description: 'The grunt command line interface.',
+35 silly resolved     version: '0.1.13',
+35 silly resolved     author: { name: 'Grunt Team' },
+35 silly resolved     homepage: 'http://gruntjs.com/',
+35 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+35 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+35 silly resolved     licenses: [ [Object] ],
+35 silly resolved     bin: { grunt: 'bin/grunt' },
+35 silly resolved     engines: { node: '>= 0.8.0' },
+35 silly resolved     scripts: { test: 'node bin/grunt test' },
+35 silly resolved     preferGlobal: true,
+35 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+35 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+35 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+35 silly resolved     _id: 'grunt-cli@0.1.13',
+35 silly resolved     dist:
+35 silly resolved      { shasum: 'e9ebc4047631f5012d922770c39378133cad10f4',
+35 silly resolved        tarball: 'http://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz' },
+35 silly resolved     _from: 'grunt-cli@',
+35 silly resolved     _npmVersion: '1.3.24',
+35 silly resolved     _npmUser: { name: 'tkellen', email: 'tyler@sleekcode.net' },
+35 silly resolved     maintainers: [ [Object] ],
+35 silly resolved     directories: {},
+35 silly resolved     _shasum: 'e9ebc4047631f5012d922770c39378133cad10f4',
+35 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz',
+35 silly resolved     readme: 'ERROR: No README data found!' } ]
+36 info install grunt-cli@0.1.13 into /Users/waitej/Jess/Code/MEAN_WebApp
+37 info installOne grunt-cli@0.1.13
+38 info /Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli unbuild
+39 verbose tar unpack /Users/waitej/.npm/grunt-cli/0.1.13/package.tgz
+40 silly lockFile 24756d25-AN-WebApp-node-modules-grunt-cli tar:///Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli
+41 verbose lock tar:///Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli /Users/waitej/.npm/24756d25-AN-WebApp-node-modules-grunt-cli.lock
+42 silly lockFile c5b5f90a-npm-grunt-cli-0-1-13-package-tgz tar:///Users/waitej/.npm/grunt-cli/0.1.13/package.tgz
+43 verbose lock tar:///Users/waitej/.npm/grunt-cli/0.1.13/package.tgz /Users/waitej/.npm/c5b5f90a-npm-grunt-cli-0-1-13-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry Gruntfile.js
+49 silly gunzTarPerm extractEntry .travis.yml
+50 silly gunzTarPerm extractEntry AUTHORS
+51 silly gunzTarPerm extractEntry LICENSE-MIT
+52 silly gunzTarPerm extractEntry bin/grunt
+53 silly gunzTarPerm extractEntry completion/bash
+54 silly gunzTarPerm extractEntry completion/zsh
+55 silly gunzTarPerm extractEntry lib/cli.js
+56 silly gunzTarPerm extractEntry lib/completion.js
+57 silly gunzTarPerm extractEntry lib/info.js
+58 silly lockFile 24756d25-AN-WebApp-node-modules-grunt-cli tar:///Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli
+59 silly lockFile 24756d25-AN-WebApp-node-modules-grunt-cli tar:///Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli
+60 silly lockFile c5b5f90a-npm-grunt-cli-0-1-13-package-tgz tar:///Users/waitej/.npm/grunt-cli/0.1.13/package.tgz
+61 silly lockFile c5b5f90a-npm-grunt-cli-0-1-13-package-tgz tar:///Users/waitej/.npm/grunt-cli/0.1.13/package.tgz
+62 info preinstall grunt-cli@0.1.13
+63 verbose readDependencies using package.json deps
+64 verbose readDependencies using package.json deps
+65 verbose cache add [ 'nopt@~1.0.10', null ]
+66 verbose cache add name=undefined spec="nopt@~1.0.10" args=["nopt@~1.0.10",null]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'nopt@~1.0.10',
+67 verbose parsed url   path: 'nopt@~1.0.10',
+67 verbose parsed url   href: 'nopt@~1.0.10' }
+68 verbose cache add [ 'findup-sync@~0.1.0', null ]
+69 verbose cache add name=undefined spec="findup-sync@~0.1.0" args=["findup-sync@~0.1.0",null]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'findup-sync@~0.1.0',
+70 verbose parsed url   path: 'findup-sync@~0.1.0',
+70 verbose parsed url   href: 'findup-sync@~0.1.0' }
+71 verbose cache add name="nopt" spec="~1.0.10" args=["nopt","~1.0.10"]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: '~1.0.10',
+72 verbose parsed url   path: '~1.0.10',
+72 verbose parsed url   href: '~1.0.10' }
+73 verbose addNamed [ 'nopt', '~1.0.10' ]
+74 verbose addNamed [ null, '>=1.0.10-0 <1.1.0-0' ]
+75 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+76 verbose lock nopt@~1.0.10 /Users/waitej/.npm/79f78dba-nopt-1-0-10.lock
+77 verbose cache add [ 'resolve@~0.3.1', null ]
+78 verbose cache add name=undefined spec="resolve@~0.3.1" args=["resolve@~0.3.1",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'resolve@~0.3.1',
+79 verbose parsed url   path: 'resolve@~0.3.1',
+79 verbose parsed url   href: 'resolve@~0.3.1' }
+80 verbose cache add name="findup-sync" spec="~0.1.0" args=["findup-sync","~0.1.0"]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: '~0.1.0',
+81 verbose parsed url   path: '~0.1.0',
+81 verbose parsed url   href: '~0.1.0' }
+82 verbose addNamed [ 'findup-sync', '~0.1.0' ]
+83 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+84 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+85 verbose lock findup-sync@~0.1.0 /Users/waitej/.npm/625605b9-findup-sync-0-1-0.lock
+86 verbose cache add name="resolve" spec="~0.3.1" args=["resolve","~0.3.1"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '~0.3.1',
+87 verbose parsed url   path: '~0.3.1',
+87 verbose parsed url   href: '~0.3.1' }
+88 verbose addNamed [ 'resolve', '~0.3.1' ]
+89 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+90 silly lockFile 7958d065-resolve-0-3-1 resolve@~0.3.1
+91 verbose lock resolve@~0.3.1 /Users/waitej/.npm/7958d065-resolve-0-3-1.lock
+92 silly addNameRange { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: false }
+93 silly addNameRange { name: 'findup-sync',
+93 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+93 silly addNameRange   hasData: false }
+94 silly addNameRange { name: 'resolve', range: '>=0.3.1-0 <0.4.0-0', hasData: false }
+95 verbose url raw findup-sync
+96 verbose url resolving [ 'https://registry.npmjs.org/', './findup-sync' ]
+97 verbose url resolved https://registry.npmjs.org/findup-sync
+98 info trying registry request attempt 1 at 20:31:24
+99 http GET https://registry.npmjs.org/findup-sync
+100 verbose url raw resolve
+101 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+102 verbose url resolved https://registry.npmjs.org/resolve
+103 info trying registry request attempt 1 at 20:31:24
+104 http GET https://registry.npmjs.org/resolve
+105 verbose url raw nopt
+106 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+107 verbose url resolved https://registry.npmjs.org/nopt
+108 info trying registry request attempt 1 at 20:31:24
+109 verbose etag "33E51D7L2VL4IWEQQYT6B6P9H"
+110 http GET https://registry.npmjs.org/nopt
+111 http 200 https://registry.npmjs.org/findup-sync
+112 silly registry.get cb [ 200,
+112 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+112 silly registry.get     etag: '"CT2PJF8E88RPQNWEIB1UFL8EJ"',
+112 silly registry.get     'content-type': 'application/json',
+112 silly registry.get     'cache-control': 'max-age=60',
+112 silly registry.get     'content-length': '9890',
+112 silly registry.get     'accept-ranges': 'bytes',
+112 silly registry.get     date: 'Wed, 29 Jul 2015 00:31:24 GMT',
+112 silly registry.get     via: '1.1 varnish',
+112 silly registry.get     age: '59',
+112 silly registry.get     connection: 'keep-alive',
+112 silly registry.get     'x-served-by': 'cache-atl6232-ATL',
+112 silly registry.get     'x-cache': 'HIT',
+112 silly registry.get     'x-cache-hits': '3',
+112 silly registry.get     'x-timer': 'S1438129884.744593,VS0,VE0',
+112 silly registry.get     vary: 'Accept' } ]
+113 silly addNameRange number 2 { name: 'findup-sync',
+113 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+113 silly addNameRange   hasData: true }
+114 silly addNameRange versions [ 'findup-sync',
+114 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.2.1' ] ]
+115 verbose addNamed [ 'findup-sync', '0.1.3' ]
+116 verbose addNamed [ '0.1.3', '0.1.3' ]
+117 silly lockFile 7d59adfa-findup-sync-0-1-3 findup-sync@0.1.3
+118 verbose lock findup-sync@0.1.3 /Users/waitej/.npm/7d59adfa-findup-sync-0-1-3.lock
+119 silly lockFile 21bbbbf7-indup-sync-findup-sync-0-1-3-tgz https://registry.npmjs.org/findup-sync/-/findup-sync-0.1.3.tgz
+120 verbose lock https://registry.npmjs.org/findup-sync/-/findup-sync-0.1.3.tgz /Users/waitej/.npm/21bbbbf7-indup-sync-findup-sync-0-1-3-tgz.lock
+121 verbose addRemoteTarball [ 'https://registry.npmjs.org/findup-sync/-/findup-sync-0.1.3.tgz',
+121 verbose addRemoteTarball   '7f3e7a97b82392c653bf06589bd85190e93c3683' ]
+122 info retry fetch attempt 1 at 20:31:24
+123 verbose fetch to= /var/folders/yb/bq5dnfb53k5gt2tp8fls2mf9sdfwnp/T/npm-92905-8k38HSe7/registry.npmjs.org/findup-sync/-/findup-sync-0.1.3.tgz
+124 http GET https://registry.npmjs.org/findup-sync/-/findup-sync-0.1.3.tgz
+125 http 200 https://registry.npmjs.org/nopt
+126 silly registry.get cb [ 200,
+126 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+126 silly registry.get     etag: '"1IA1PCOREFA1D278SXAMNMGJT"',
+126 silly registry.get     'content-type': 'application/json',
+126 silly registry.get     'cache-control': 'max-age=60',
+126 silly registry.get     'content-length': '27595',
+126 silly registry.get     'accept-ranges': 'bytes',
+126 silly registry.get     date: 'Wed, 29 Jul 2015 00:31:24 GMT',
+126 silly registry.get     via: '1.1 varnish',
+126 silly registry.get     age: '49',
+126 silly registry.get     connection: 'keep-alive',
+126 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+126 silly registry.get     'x-cache': 'HIT',
+126 silly registry.get     'x-cache-hits': '3',
+126 silly registry.get     'x-timer': 'S1438129884.750175,VS0,VE0',
+126 silly registry.get     vary: 'Accept' } ]
+127 silly addNameRange number 2 { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: true }
+128 silly addNameRange versions [ 'nopt',
+128 silly addNameRange   [ '1.0.0',
+128 silly addNameRange     '1.0.1',
+128 silly addNameRange     '1.0.2',
+128 silly addNameRange     '1.0.3',
+128 silly addNameRange     '1.0.4',
+128 silly addNameRange     '1.0.5',
+128 silly addNameRange     '1.0.6',
+128 silly addNameRange     '1.0.7',
+128 silly addNameRange     '1.0.8',
+128 silly addNameRange     '1.0.9',
+128 silly addNameRange     '1.0.10',
+128 silly addNameRange     '2.0.0',
+128 silly addNameRange     '2.1.0',
+128 silly addNameRange     '2.1.1',
+128 silly addNameRange     '2.1.2',
+128 silly addNameRange     '2.2.0',
+128 silly addNameRange     '2.2.1',
+128 silly addNameRange     '3.0.0',
+128 silly addNameRange     '3.0.1',
+128 silly addNameRange     '3.0.2',
+128 silly addNameRange     '3.0.3' ] ]
+129 verbose addNamed [ 'nopt', '1.0.10' ]
+130 verbose addNamed [ '1.0.10', '1.0.10' ]
+131 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+132 verbose lock nopt@1.0.10 /Users/waitej/.npm/1be903a1-nopt-1-0-10.lock
+133 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+134 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+135 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+136 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+137 verbose about to build /Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli
+138 info /Users/waitej/Jess/Code/MEAN_WebApp/node_modules/grunt-cli unbuild
+139 info preuninstall grunt-cli@0.1.13
+140 info uninstall grunt-cli@0.1.13
+141 verbose true,/Users/waitej/Jess/Code/MEAN_WebApp/node_modules,/Users/waitej/Jess/Code/MEAN_WebApp/node_modules unbuild grunt-cli@0.1.13
+142 verbose /Users/waitej/Jess/Code/MEAN_WebApp/node_modules/.bin,[object Object] binRoot
+143 info postuninstall grunt-cli@0.1.13
+144 error Error: EACCES, open '/Users/waitej/.npm/nopt/1.0.10/package/package.json'
+144 error  { [Error: EACCES, open '/Users/waitej/.npm/nopt/1.0.10/package/package.json']
+144 error   errno: 3,
+144 error   code: 'EACCES',
+144 error   path: '/Users/waitej/.npm/nopt/1.0.10/package/package.json',
+144 error   parent: 'grunt-cli' }
+145 error Please try running this command again as root/Administrator.
+146 error System Darwin 13.4.0
+147 error command "node" "/usr/local/bin/npm" "install" "grunt-cli"
+148 error cwd /Users/waitej/Jess/Code/MEAN_WebApp
+149 error node -v v0.10.29
+150 error npm -v 1.4.14
+151 error path /Users/waitej/.npm/nopt/1.0.10/package/package.json
+152 error code EACCES
+153 error errno 3
+154 error stack Error: EACCES, open '/Users/waitej/.npm/nopt/1.0.10/package/package.json'
+155 verbose exit [ 3, true ]

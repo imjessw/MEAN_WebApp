@@ -1,0 +1,17 @@
+M.E.A.N application: MongoDB- NoSQL DB, ExpressJs-a Node.js application Framework, AngularJS- Front End JS framework, Node.js- server side Javascript App Engine.
+
+Fully Javascript- one language to cover the full stack.
+
+forces a break between front end and back end code. 
+
+yay! BUilding a movie trailer application
+
+CRUD- Create, Read, Update, Delete
+
+we will have full CRUD capabilities + list, because we will be building a Restful API.
+
+Seperate front end and backend
+
+1> Install HomeBrew
+2> Install Node and Mongo
+3>
