@@ -14,4 +14,23 @@ Seperate front end and backend
 
 1> Install HomeBrew
 2> Install Node and Mongo
-3>
+
+
+API First
+ it is restful from the start
+ it can support multi projects
+
+
+
+ Create server- Named mean APP
+
+
+ Create Index.js
+
+ add dpendencies -
+ by adding var express= require('express'), im really assigning that dependency/libary to the variable
+
+ Midddleware- intercepts itself into the request. then provides something unique to teh pluggin
+
+
+
