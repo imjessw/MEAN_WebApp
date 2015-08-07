@@ -15,9 +15,16 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(methodOverride('X-HTTP-Method-Override')); //Allows http request as in "put" ect
 
+//cors support
+app.use(function(req, res, next){
+	res.header('Acess-Control-Allow-Orgin', '*');
+	res.header('Acess-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+	res.header('Acess-Control-Allow-Headers', 'Content-Type');
+	next();
+})
 
 //Connect to MongoDB
-mongoose.connect('mongodb://localhost/MeanApp');
+mongoose.connect('mongodb://MeanApp');
 mongoose.connection.once('open',function(){
 	console.log('listening on port 3000');
 	app.listen(3000);
