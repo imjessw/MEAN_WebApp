@@ -39,3 +39,8 @@ CORs allows us to expose our API'S to our server making it public
  use method on app and call it by the path ('/hello') then you pass in the call back function: which is exected with the request, response and teh next call back.
 
  	next command signals you can go onto teh next middleware
+
+models are the foundation of your app dependecies- setting your data model, essentially.
+Controllers have all your app logic
+
+   look more into dependency injection... it allows you to pass around models.

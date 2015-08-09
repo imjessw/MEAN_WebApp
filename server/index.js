@@ -37,9 +37,10 @@ console.log("configured app");
 //Connect to MongoDB
 mongoose.connect('mongodb://localhost/meanapp');
 mongoose.connection.once('open',function(){
+	
 	//LoadAll the models
 	app.models = require("./models/index");
-	
+
 	console.log('listening on port 3000');
 	app.listen(3000);
 });
