@@ -1,13 +1,16 @@
-
+console.log("hit index.js");
 // Requirements
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var methodOverride = require ('method-override');
 var _ = require('lodash');
+console.log("loaded dependencies");
+
 
 // Create the app
 var app = express(); //this line creates the express application
+console.log("started app");
 
 // Add Middleware necessary for Rest api's
 
@@ -22,9 +25,9 @@ app.use(function(req, res, next){
 	res.header('Acess-Control-Allow-Headers', 'Content-Type');
 	next();
 })
-
+console.log("configured app");
 //Connect to MongoDB
-mongoose.connect('mongodb://MeanApp');
+mongoose.connect('mongodb://localhost/meanapp');
 mongoose.connection.once('open',function(){
 	console.log('listening on port 3000');
 	app.listen(3000);
