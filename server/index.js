@@ -24,11 +24,24 @@ app.use(function(req, res, next){
 	res.header('Acess-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
 	res.header('Acess-Control-Allow-Headers', 'Content-Type');
 	next();
-})
+});
 console.log("configured app");
+
+
+// app.use('/hello', function(req, res, next){
+// 	res.send('Hello World');
+// 	next();
+// });
+
+
 //Connect to MongoDB
 mongoose.connect('mongodb://localhost/meanapp');
 mongoose.connection.once('open',function(){
 	console.log('listening on port 3000');
 	app.listen(3000);
-})
+});
+
+app.use('/hello', function(req, res, next){
+	res.send('Hello World');
+	next();
+});
